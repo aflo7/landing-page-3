@@ -12,7 +12,7 @@ import Nav from './components/Nav.vue';
     >
       <Nav />
     </div>
-    <div class="germantown" style="height: 400px; background-color: red"></div>
+    <div class="germantown" style="height: 400px;"></div>
 
     <div
       style="
