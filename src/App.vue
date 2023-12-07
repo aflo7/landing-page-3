@@ -4,7 +4,7 @@ import Nav from './components/Nav.vue';
 </script>
 
 <template>
-  <div>
+  <!-- <div style="border: 5px solid red;"> -->
     <div
       style="
         display: flex;
@@ -14,12 +14,7 @@ import Nav from './components/Nav.vue';
     >
       <Nav />
     </div>
-    <div>
-      <img
-        src="https://www1.lifestylecommunities.com/sliders/germantownlc-0419-9-large.jpg"
-        height="600px"
-      />
-    </div>
+    <div class="germantown" style="height: 400px; background-color: red"></div>
 
     <div
       style="
@@ -30,7 +25,7 @@ import Nav from './components/Nav.vue';
         padding: 40px;
       "
     >
-      <div style="width: 1200px; display: flex; gap: 50px">
+      <div style="width: 1100px; display: flex; gap: 50px">
         <p style="font-size: 3rem; width: 1600px">
           Love where you live, and feel like you belong.
         </p>
@@ -67,7 +62,7 @@ import Nav from './components/Nav.vue';
       "
     >
       <div
-        style="width: 1200px; display: flex; flex-direction: column; gap: 40px"
+        style="width: 1100px; display: flex; flex-direction: column; gap: 40px"
       >
         <div style="display: flex; gap: 100px">
           <div class="left-footer">
@@ -99,7 +94,7 @@ import Nav from './components/Nav.vue';
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <style scoped></style>

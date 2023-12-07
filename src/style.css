@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   font-family: Stolzl-Light, sans-serif;
+  /* background-color: blue; */
 }
 
 * {
@@ -36,7 +37,7 @@ body {
 .grid-container {
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1200px;
+  width: 1100px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
@@ -68,4 +69,9 @@ body {
   background-color: white;
   color: rgb(26, 26, 26);
   border: none;
+}
+
+.germantown {
+  background-image: url(https://www1.lifestylecommunities.com/sliders/germantownlc-0419-9-large.jpg);
+  background-position: center;
 }

@@ -18,7 +18,7 @@ const count = ref(0);
       background-color: rgb(24, 24, 24);
       color: white;
       padding: 20px;
-      width: 1200px;
+      width: 1100px;
     "
   >
     <img src="../assets/lifestyle-communities.jpeg" height="60px" />
