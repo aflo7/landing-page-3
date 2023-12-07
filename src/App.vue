@@ -1,10 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
 import Nav from './components/Nav.vue';
 </script>
 
 <template>
-  <!-- <div style="border: 5px solid red;"> -->
     <div
       style="
         display: flex;
@@ -94,7 +92,6 @@ import Nav from './components/Nav.vue';
         </div>
       </div>
     </div>
-  <!-- </div> -->
 </template>
 
 <style scoped></style>

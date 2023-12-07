@@ -1,13 +1,4 @@
 <script setup>
-import { ref } from 'vue';
-// import { IoMdArrowDropdown } from 'react-icons/io';
-import { RiArrowDownSFill } from 'oh-vue-icons/icons';
-import { MdMailoutlineSharp } from 'oh-vue-icons/icons';
-defineProps({
-  msg: String
-});
-
-const count = ref(0);
 </script>
 
 <template>
