@@ -1,0 +1,71 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-family: Stolzl-Light, sans-serif;
+}
+
+* {
+  margin: 0;
+}
+
+.nav-center > div {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(26, 26, 26);
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.nav-center > div:hover {
+  border-bottom: 2px solid white;
+}
+
+.nav-right > div {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(26, 26, 26);
+  height: fit-content;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.nav-right > div:hover {
+  border-bottom: 2px solid white;
+}
+
+.grid-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.grid-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 160px 0px;
+  font-weight: bold;
+  background-image: url('https://www1.lifestylecommunities.com/lc3/homepage/Columbus_500x400.jpg');
+  color: white;
+}
+
+
+.left-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-footer > div {
+  cursor: pointer;
+}
+
+#submitBtn {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(26, 26, 26);
+  border: none;
+}
